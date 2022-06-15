@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daniel José Barbosa Lima - Teste TooDoo</title>
+    Digite o sorvete:
+    <input id="chocolate" />
+    <button onclick="alerta()">Verificar</button>
+    <br />
+    <script type="text/javascript">
+      var sorvete = 'chocolate'
+      function alerta() {
+        var tentativa = document.getElementById('chocolate').value
+        if (tentativa == sorvete) alert('Amo sorvete de chocolate')
+        else alert('Prefiro outros sabores.')
+      }
+    </script>
+  </head>
+</html>
